@@ -1,0 +1,25 @@
+{
+  "name": "db_demo",
+  "version": "1.0.0",
+  "description": "A simple application to demonstrate how to connect to a db from NodeJS and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techedemic/node_express_maria.git"
+  },
+  "author": "Hendri Schoeman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techedemic/node_express_maria/issues"
+  },
+  "homepage": "https://github.com/techedemic/node_express_maria#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mariadb": "^2.5.3"
+  }
+}
